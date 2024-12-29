@@ -63,7 +63,7 @@ To get UI effect for dark and light mode.
 
 **Absolute path** means the independent path. when you say `path:"/home"` it means it is independent. whenever we add '/' to any path, it will be absolute path and **Relative path** means paths in children. in children prop, we should not put '/' beacuse being relative it will read automatically with '/'.
 
-**See the wrong code below**
+**See the wrong code below**❌
 
 ```javascript
 const router = createBrowserRouter([
@@ -96,7 +96,7 @@ const router = createBrowserRouter([
 ]);
 ```
 
-**See the right code below**
+**See the right code below**✅
 <br>
 Make the child route's path relative by removing the leading '/ '.
 
