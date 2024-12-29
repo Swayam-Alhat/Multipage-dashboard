@@ -158,7 +158,7 @@ The end prop ensures that the link is considered active only when the exact path
 **Have a look on code below.**
 
 ```javascript
-<NavLink
+            <NavLink  
               to="/home"
               end           // <--    this end prop prevents the active state when the address bar have subpaths of home
               className={({ isActive }) => {
